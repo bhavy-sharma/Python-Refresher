@@ -1,0 +1,5 @@
+f = open('bhavy.txt', 'a')
+content = f.write("|| Explorer || Researcher")
+print(content)
+print(type(content))
+f.close()
