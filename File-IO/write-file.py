@@ -1,0 +1,5 @@
+f = open('bhavy.txt', 'w')
+content = f.write("Bhavy Sharma || Coder shab")
+print(content)
+print(type(content))
+f.close()
